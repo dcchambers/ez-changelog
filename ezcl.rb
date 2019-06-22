@@ -1,10 +1,12 @@
 require 'git'
 
-path_to_git_repo = '.'
-
-puts 'ezcl - Generating a changelog from your git log.'
+puts '                ~ ezcl ~                 '
+puts 'Generating a changelog from your git log.'
 print 'Enter CHANGELOG file name: '
 filename = gets.chomp
+print 'Enter path to git repo: '
+path_to_git_repo = gets.chomp
+
 changelog_file = File.open(filename, "w")
 changelog_file.puts '# CHANGELOG'
 changelog_file.puts #newline
