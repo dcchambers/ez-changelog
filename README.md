@@ -6,7 +6,9 @@ Generate simple changelogs based on your repo's git log.
 
 ## Dependencies
 - [ruby-git](https://github.com/ruby-git/ruby-git)
- - `$ sudo gem install git`
+  - `$ sudo gem install git`
+or
+- `$ bundle install`
 
 ## Example
 ```
