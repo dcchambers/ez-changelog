@@ -1,4 +1,4 @@
-# ez-changelog
+# ez-changelog [![Build Status](https://travis-ci.org/dcchambers/ez-changelog.svg?branch=master)](https://travis-ci.org/dcchambers/ez-changelog)
 Generate simple changelogs based on your repo's git log.
 
 ## Usage
