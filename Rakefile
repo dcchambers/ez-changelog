@@ -1,5 +1,6 @@
 task default: %w[test]
 
 task :test do
-  puts "Test - Build Success!"
+  ruby "ezcl.rb < test/inputfile"
+  puts File.read("TESTCHANGELOG.md")
 end
