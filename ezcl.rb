@@ -26,7 +26,7 @@ def generate_changelog
 
   g = Git.open(get_git_path)
   g.log.each {|l| changelog_file.puts "- "+l.message }
-  
+
   changelog_file.close
 end
 
